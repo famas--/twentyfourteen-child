@@ -181,119 +181,119 @@ Arvioi koulutuksen osatekijoiden toteutumista asteikolla 1-5. Valitse sopivin va
 <tr>
 
 <td>Koulutus oli sisalloltaan onnistunut</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2b2" value="ei ollenkaan"></td>
+<td><input type="radio" name="2b2" value="jonkin verran"></td>
+<td><input type="radio" name="2b2" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2b2" value="hyvin"></td>
+<td><input type="radio" name="2b2" value="erittain hyvin"></td>
 <tr>
 
 <td>Koin koulutuksen sisallon mielenkiintoiseksi</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2b3" value="ei ollenkaan"></td>
+<td><input type="radio" name="2b3" value="jonkin verran"></td>
+<td><input type="radio" name="2b3" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2b3" value="hyvin"></td>
+<td><input type="radio" name="2b3" value="erittain hyvin"></td>
 <tr>
 
 <td>Koulutus edistaa ammatillista kehittymistani</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2b4" value="ei ollenkaan"></td>
+<td><input type="radio" name="2b4" value="jonkin verran"></td>
+<td><input type="radio" name="2b4" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2b4" value="hyvin"></td>
+<td><input type="radio" name="2b4" value="erittain hyvin"></td>
 <tr>
 
 <td>Koulutuksen opit ovat sovellettavissa kaytantoon</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2b5" value="ei ollenkaan"></td>
+<td><input type="radio" name="2b5" value="jonkin verran"></td>
+<td><input type="radio" name="2b5" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2b5" value="hyvin"></td>
+<td><input type="radio" name="2b5" value="erittain hyvin"></td>
 <tr>
 
 <td><br></td><tr>
 <td><b>c. Koulutuksessa kaytetyt menetelmat</b></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
 <td>Koulutuksessa kaytettiin monipuolisia menetelmia</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2c1" value="ei ollenkaan"></td>
+<td><input type="radio" name="2c1" value="jonkin verran"></td>
+<td><input type="radio" name="2c1" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2c1" value="hyvin"></td>
+<td><input type="radio" name="2c1" value="erittain hyvin"></td>
 <tr>
 
 <td>Koulutuksessa kaytetytmenetelmat sopivat aihesisaltoon</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2c2" value="ei ollenkaan"></td>
+<td><input type="radio" name="2c2" value="jonkin verran"></td>
+<td><input type="radio" name="2c2" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2c2" value="hyvin"></td>
+<td><input type="radio" name="2c2" value="erittain hyvin"></td>
 <tr>
 
 <td>Koulutus aktivoi kysymyksiin ja keskusteluun</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2c3" value="ei ollenkaan"></td>
+<td><input type="radio" name="2c3" value="jonkin verran"></td>
+<td><input type="radio" name="2c3" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2c3" value="hyvin"></td>
+<td><input type="radio" name="2c3" value="erittain hyvin"></td>
 <tr>
 
 <td>Koulutuksen oppimateriaali tuki oppimista</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2c4" value="ei ollenkaan"></td>
+<td><input type="radio" name="2c4" value="jonkin verran"></td>
+<td><input type="radio" name="2c4" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2c4" value="hyvin"></td>
+<td><input type="radio" name="2c4" value="erittain hyvin"></td>
 <tr>
 
 <td>Etaopetuspaivan tehtavat tukivat oppimista</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2c5" value="ei ollenkaan"></td>
+<td><input type="radio" name="2c5" value="jonkin verran"></td>
+<td><input type="radio" name="2c5" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2c5" value="hyvin"></td>
+<td><input type="radio" name="2c5" value="erittain hyvin"></td>
 <tr>
 
 <td><br></td><tr>
 <td><b>d. Kouluttaja</b></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
 <td>Kouluttaja oli asiantunteva</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2d1" value="ei ollenkaan"></td>
+<td><input type="radio" name="2d1" value="jonkin verran"></td>
+<td><input type="radio" name="2d1" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2d1" value="hyvin"></td>
+<td><input type="radio" name="2d1" value="erittain hyvin"></td>
 <tr>
 
 <td>Kouluttajan opetus oli selkeaa</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2d2" value="ei ollenkaan"></td>
+<td><input type="radio" name="2d2" value="jonkin verran"></td>
+<td><input type="radio" name="2d2" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2d2" value="hyvin"></td>
+<td><input type="radio" name="2d2" value="erittain hyvin"></td>
 <tr>
 
 <td>Vuorovaikutus kouluttajan kanssa sujui hyvin</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2d3" value="ei ollenkaan"></td>
+<td><input type="radio" name="2d3" value="jonkin verran"></td>
+<td><input type="radio" name="2d3" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2d3" value="hyvin"></td>
+<td><input type="radio" name="2d3" value="erittain hyvin"></td>
 <tr>
 
 <td>Yhteydenpito kouluttajaan onnistui etaopetuspaivana</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2d4" value="ei ollenkaan"></td>
+<td><input type="radio" name="2d4" value="jonkin verran"></td>
+<td><input type="radio" name="2d4" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2d4" value="hyvin"></td>
+<td><input type="radio" name="2d4" value="erittain hyvin"></td>
 <tr>
 
 <td>Kouluttaja onnistui tehtavassaan</td><td>
-<td><input type="radio" name="2b1" value="ei ollenkaan"></td>
-<td><input type="radio" name="2b1" value="jonkin verran"></td>
-<td><input type="radio" name="2b1" value="keskinkertaisesti"></td>
-<td><input type="radio" name="2b1" value="hyvin"></td>
-<td><input type="radio" name="2b1" value="erittain hyvin"></td>
+<td><input type="radio" name="2d5" value="ei ollenkaan"></td>
+<td><input type="radio" name="2d5" value="jonkin verran"></td>
+<td><input type="radio" name="2d5" value="keskinkertaisesti"></td>
+<td><input type="radio" name="2d5" value="hyvin"></td>
+<td><input type="radio" name="2d5" value="erittain hyvin"></td>
 <tr>
 </table>
 <br>
@@ -303,22 +303,22 @@ Arvioi koulutuksen osatekijoiden toteutumista asteikolla 1-5. Valitse sopivin va
 
 <td>a. Mika oli mielestasi koulutuksen parasta antia?</td>
 <tr>
-<td><textarea rows="5" cols="50" name="Koulutuksen toteuttaja" form="usrform"></textarea></td><tr>
+<td><textarea rows="5" cols="50" name="3a" form="usrform"></textarea></td><tr>
 <td><br></td><tr>
 
 <td>b. Parannusehdotuksia?</td>
 <tr>
-<td><textarea rows="5" cols="50" name="Koulutuksen toteuttaja" form="usrform"></textarea></td><tr>
+<td><textarea rows="5" cols="50" name="3b" form="usrform"></textarea></td><tr>
 <td><br></td><tr>
 
 <td>c. Minkalaiseen koulutukseen haluaisit jatkossa osallistua?</td>
 <tr>
-<td><textarea rows="5" cols="50" name="Koulutuksen toteuttaja" form="usrform"></textarea></td><tr>
+<td><textarea rows="5" cols="50" name="3c" form="usrform"></textarea></td><tr>
 <td><br></td><tr>
 
 <td>d. Muita kommentteja?</td>
 <tr>
-<td><textarea rows="5" cols="50" name="Koulutuksen toteuttaja" form="usrform"></textarea></td><tr>
+<td><textarea rows="5" cols="50" name="3d" form="usrform"></textarea></td><tr>
 </table>
 
 <table><tr>
