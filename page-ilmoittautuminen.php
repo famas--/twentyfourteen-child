@@ -32,7 +32,7 @@ get_header(); ?>
 <html>
 
 <body>
-<table class="tuomaswidthcenter"><tr><td>
+<table class="entry-content1"><tr><td>
 <h1 class="ajankohtaista">ILMOITTAUTUMISLOMAKE</h1></td></table><br>
 		
 		
@@ -68,7 +68,7 @@ $lopetusaikaklo = $_POST['lopetusaikaklo'];
 $nimi = mysqli_query ($yhteys,"SELECT * FROM koulutus WHERE koulutusid = $id");
 while($tieto = mysqli_fetch_array ($nimi)){
 
-echo "<table class=\"tuomaswidthcenter\"><tr>
+echo "<table class=\"entry-content1\"><tr>
 <td>Koulutuksen nimi:</td><td style=\"strong\">" . $tieto['koulutuksennimi'] . "</td>
 
 

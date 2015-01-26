@@ -32,7 +32,7 @@ get_header(); ?>
 <meta charset="UTF-8">
 </head>
 <body>
-<table class="tuomaswidthcenter"><tr><td>
+<table class="entry-content1"><tr><td>
 <h1 class="ajankohtaista">KOULUTUKSEN TIEDOT</h1></td></table><br>
 <?php
 
@@ -47,7 +47,7 @@ $id = $_POST['var2'];
 $sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE koulutusid = $id");
 	while($tieto = mysqli_fetch_array ($sql)){
 		
-		echo "<table class=\"tuomaswidthcenter\"><tr>
+		echo "<table class=\"entry-content1\"><tr>
 		
 		
 		
@@ -64,11 +64,11 @@ $sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE koulutusid = $id");
 		</table>
 		
 		
-		<table class=\"tuomaswidthcenter\"><tr>
+		<table class=\"entry-content1\"><tr>
 		<td class=\"tuomastd1\"><h1>" . $tieto['koulutuksennimi'] . "</h1></td>
 		</table>
 		
-		<table class=\"tuomaswidthcenter\"><tr>
+		<table class=\"entry-content1\"><tr>
 		
 		
 		
