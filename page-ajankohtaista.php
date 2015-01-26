@@ -46,7 +46,7 @@ include 'yhteys.php';
 
 
 
-$sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE ilmoittautuminen >= CURTIME()");
+$sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE ilmoittautuminen <= CURTIME()");
 while($tulos = mysqli_fetch_array($sql))
 {
 	
