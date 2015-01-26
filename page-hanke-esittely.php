@@ -30,7 +30,7 @@ get_header(); ?>
 <html>
 
 <body>
-<table class="tuomaswidthcenter"><tr><td>
+<table class="entry-content1"><tr><td>
 <h1 class="ajankohtaista">HANKE-ESITTELY</h1></td></table><br>
 
 

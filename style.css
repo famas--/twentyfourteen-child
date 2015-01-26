@@ -1149,6 +1149,14 @@ span + .edit-link:before,
 		margin: 0 auto;
 		max-width: 860px; /**Tuomas sivun sisällön leveys*/
 	}
+	
+.site-content .entry-content2 /*tuomas*/
+	{
+		margin: 0 auto;
+		max-width: 800px; /**Tuomas sivun sisällön leveys*/
+	}
+
+	
 .page-content {
 	margin-bottom: 48px;
 }
@@ -1340,6 +1348,7 @@ a.post-thumbnail:hover {
 
 .site-content .entry-content,
 .site-content .entry-content1, /*tuomas*/
+.site-content .entry-content2, /*tuomas*/
 .site-content .entry-summary,
 .page-content {
 	background-color: #fff;
@@ -3424,7 +3433,8 @@ a.post-thumbnail:hover {
 	.page-content,
 	.post-navigation,
 	.site-content .entry-content,
-	.site-content .entry-content1,
+	.site-content .entry-content1, /*tuomas*/
+	.site-content .entry-content2, /*tuomas*/
 	.site-content .entry-summary,
 	.site-content footer.entry-meta {
 		padding-right: 30px;

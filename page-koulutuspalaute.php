@@ -85,12 +85,12 @@ if (str=="") {
 </head>
 
 <body>
-<table class="tuomaswidthcenter"><tr><td>
+<table class="entry-content1"><tr><td>
 <h1 class="ajankohtaista">KOULUTUSPALAUTE</h1></td></table><br>
-<table class="tuomaswidthcenter">
+<table class="entry-content1">
 <tr><td>Toivomme, etta pohdit hetken kaymaasi koulutusta ja taytat alla olevan palautelomakkeen. Antamasi palaute on meille arvokasta kehittaessamme koulutuksiamme edelleen.</td></table><br>
 
-<form class="tuomas2widthcenter" action="tavarapalautetaulukkoon.php" method="post"/>
+<form class="entry-content2" action="tavarapalautetaulukkoon.php" method="post"/>
 <h3>1. Taustatiedot</h3>
 
 
