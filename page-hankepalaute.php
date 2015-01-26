@@ -79,7 +79,7 @@ function validateForm() {
 
 <body>
 
-<table class="tuomaswidthcenter"><tr><td>
+<table class="entry-content1"><tr><td>
 <h1 class="ajankohtaista">HANKEPALAUTE</h1></td></table><br>
 
 <form name="form1" action="tavarapalautteettaulukkoon.php" onsubmit="return validateForm()" method="post" class="tuomas2widthcenter"/>
@@ -89,10 +89,10 @@ function validateForm() {
 <h3>1. Yrityshankkeen perustiedot</h3>
 
 
-<table>
+<table class="entry-content1">
 <tr>
 <td width="35%">Yhteistyösopimuksen pvm</td><td><input type="date" name=pvm></td><td><!--(pp.kk.vvvv)--></td><tr></table>
-<table>
+<table class="entry-content1">
 <td width="35%">Yrityksen nimi</td><td><textarea type=text rows=1 cols=40 name=nimi style="resize: none" ></textarea></td><tr>
 <td width="35%">Y-tunnus</td><td><textarea type=text rows=1 cols=40 name=ytunnus style="resize: none" ></textarea></td><tr>
 <td width="35%">Paikkakunta</td><td><textarea type=text rows=1 cols=40 name=kunta style="resize: none" ></textarea></td><tr>
@@ -102,7 +102,7 @@ function validateForm() {
 <td width="35%">Yhteistyöhankkeen sisältö</td><td><textarea type=text rows=2 cols=40 name=sisalto></textarea></td><tr>
 </table>
 <br>
-<table class="tuomaswidthcenter">
+<table class="entry-content1">
 <td>1 = ei</td><tr>
 <td>2 = jonkin verran</td><tr>
 <td>3 = kyllä</td><tr>
@@ -117,7 +117,7 @@ function validateForm() {
 </table>
 
 
-<table>
+<table class="entry-content1">
 
 <td><b>Henkilöstövaikutukset</b></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
 <td width="80%">henkilöstön osaaminen kasvoi</td><td>
@@ -137,9 +137,9 @@ function validateForm() {
 </td><tr>
 </table>
 <br>
-<table>
+<table class="entry-content1">
 <td><b>Uusien työpaikkojen määrä</b></td></table>
-<table><tr>
+<table class="entry-content1"><tr>
 <td width="35%">Miehet</td>
 <td><input type="number" name="2a3" step="1" name="2a3" min="0" max="20"></td><tr>
 <td width="35%">Naiset</td>
@@ -148,11 +148,11 @@ function validateForm() {
 
 <br>
 
-<table>
+<table class="entry-content1">
 <td><b>Uusista työpaikoista tutkimus- tai tuotekehitystyöpaikkoja</b></td>
 </table>
 
-<table>
+<table class="entry-content1">
 <tr>
 <td width="35%">Miehet</td>
 <td><input type="number" step="1" name="2a5" min="0" max="20"></td><tr>
@@ -163,7 +163,7 @@ function validateForm() {
 
 <br>
 
-<table>
+<table class="entry-content1">
 <tr>
 
 <td width="80%"><b>Yritystoiminta</b></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
@@ -192,11 +192,11 @@ function validateForm() {
 </td><tr>
 </table>
 <br>
-<table>
+<table class="entry-content1">
 <td><b>Osuiko yrityksen kehittämishanke kasvukynnykseen, jonka johdosta liiketoiminta kasvoi?</b></td>
 </table>
 
-<table>
+<table class="entry-content1">
 <tr>
 <td width="35%">Kyllä</td>
 <td><input type="radio" name="2b4" value="1"></td><tr>
@@ -206,7 +206,7 @@ function validateForm() {
 </table>
 
 <br>
-<table>
+<table class="entry-content1">
 <tr>
 
 <td width="80%"><h3>3. Jatkotoimenpiteet</h3></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
@@ -227,13 +227,13 @@ function validateForm() {
 </td>
 
 
-</table class="tuomaswidthcenter">
+</table class="entry-content1">
 <br>
 <table>
 <td>Onko yrityksellänne suunnitelmissa kehittää liiketoimintaa lähivuosina</td>
 </table>
 
-<table>
+<table class="entry-content1">
 <tr>
 <td width="35%">Kyllä</td>
 <td><input type="radio" name="3a3" value="1"></td><tr>
@@ -262,7 +262,7 @@ function validateForm() {
 </table>
 
 
-<table><tr>
+<table class="entry-content1"><tr>
 <td><h3>4. Muuta huomioitavaa</h3></td><tr>
 
 
@@ -295,7 +295,7 @@ function validateForm() {
 </table>
 
 <br>
-<table><tr>
+<table class="entry-content1"><tr>
 <td><h3>4. Arvosana</h3></td><tr>
 <td>Koulutukselle annan kokonaisarvosanan</td><td>
 <td><select name="arvosana" selected id="arvosana">

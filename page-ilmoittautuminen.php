@@ -41,13 +41,7 @@ get_header(); ?>
 			<?php
 			
 			
-			
-			
-			
-			
-			
-
-
+		
 
 
 //sisällytetään yhteystidot
