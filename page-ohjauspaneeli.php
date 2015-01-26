@@ -55,16 +55,7 @@ while($tulos = mysqli_fetch_array($sql))
 	</form>
 	
 	
-	<form id=\"form2\" action=\"ilmoittautuminen2.php\" method=\"POST\">
-	<input type=\"hidden\" name=\"var2\" value=" . $tulos['koulutusid']. ">
-	<input type=\"hidden\" name=\"var\" value=" . $tulos['koulutuksennimi']. ">
-	<input type=\"hidden\" name=\"aloitusaika\" value=" . $tulos['aloitusaika']. ">
-	<input type=\"hidden\" name=\"aloitusaikaklo\" value=" . $tulos['aloitusaikaklo']. ">
-	<input type=\"hidden\" name=\"lopetusaika\" value=" . $tulos['lopetusaika']. ">
-	<input type=\"hidden\" name=\"lopetusaikaklo\" value=" . $tulos['lopetusaikaklo']. ">
-	<td style=\"width:85px\" align=\"right\"><input type=\"submit\" value=\"Ilmoittaudu\"></td>
 	
-	</form>
 	
 	<form id=\"form3\" action=\"ilmoittautuneet.php\" method=\"POST\">
 	<input type=\"hidden\" name=\"var2\" value=" . $tulos['koulutusid']. ">
