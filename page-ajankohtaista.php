@@ -35,7 +35,7 @@ get_header();
 <meta charset="UTF-8">
 </head>
 <body>
-<table class="tuomaswidthcenter"><tr><td>
+<table class="entry-content1"><tr><td>
 <h1 class="ajankohtaista">AJANKOHTAISTA</h1></td></table><br>
 <?php
 
@@ -51,7 +51,7 @@ while($tulos = mysqli_fetch_array($sql))
 {
 	
 	
-	echo "<table class=\"tuomaswidthcenter\">
+	echo "<table class=\"entry-content1\">
 	
 	<tr><td>" . $tulos['koulutuksennimi'] . "</td>
 	<td style=\"width:100px\" align=\"left\">" . date("d.m.Y", strtotime($tulos['aloitusaika'])) . "       </td>
