@@ -98,7 +98,7 @@ function validateForm() {
 <body>
 
 <table class="entry-content1">
-<tr><td><h1 class="ajankohtaista">Koulutuspalaute</h1></td><tr><td><br><br>Toivomme, etta pohdit hetken kaymääsi koulutusta ja täytät alla olevan palautelomakkeen. Antamasi palaute on meille arvokasta kehittaessamme koulutuksiamme edelleen.</td></table><br>
+<tr><td><h1 class="ajankohtaista">Koulutuspalaute</h1></td><tr><td><br><br>Toivomme, etta pohdit hetken käymääsi koulutusta ja täytät alla olevan palautelomakkeen. Antamasi palaute on meille arvokasta kehittäessamme koulutuksiamme edelleen.</td></table><br>
 
 <table class="entry-content1">
 <form  name="form1" action="tavarakoulutuspalautetaulukkoon.php" onsubmit="return validateForm()" method="post"/>
@@ -139,7 +139,7 @@ function validateForm() {
 
 <td><br></td><tr>
 <td><b>a. Koulutustapahtuma</b></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
-<td>Olin etukateen tietoinen koulutuksen kokonaisuudesta</td><td>
+<td>Olin etukäteen tietoinen koulutuksen kokonaisuudesta</td><td>
 <td><input type="radio" name="2a1" value="1"></td>
 <td><input type="radio" name="2a1" value="2"></td>
 <td><input type="radio" name="2a1" value="3"></td>
@@ -147,7 +147,7 @@ function validateForm() {
 <td><input type="radio" name="2a1" value="5"></td>
 <tr>
 
-<td>Koulutustapahtumasta tiedotettiin riittavasti etukateen</td><td>
+<td>Koulutustapahtumasta tiedotettiin riittävästi etukäteen</td><td>
 <td><input type="radio" name="2a2" value="1"></td>
 <td><input type="radio" name="2a2" value="2"></td>
 <td><input type="radio" name="2a2" value="3"></td>
@@ -155,7 +155,7 @@ function validateForm() {
 <td><input type="radio" name="2a2" value="5"></td>
 </td><tr>
 
-<td>Koulutus vastasi sisalloltaan sen tavoitteita ja ennakkotietoja</td><td>
+<td>Koulutus vastasi sisällöltään sen tavoitteita ja ennakkotietoja</td><td>
 <td><input type="radio" name="2a3" value="1"></td>
 <td><input type="radio" name="2a3" value="2"></td>
 <td><input type="radio" name="2a3" value="3"></td>
@@ -163,7 +163,7 @@ function validateForm() {
 <td><input type="radio" name="2a3" value="5"></td>
 </td><tr>
 
-<td>Kaytannon jarjestelyt toimivat hyvin</td><td>
+<td>Kaytannön järjestelyt toimivat hyvin</td><td>
 <td><input type="radio" name="2a4" value="1"></td>
 <td><input type="radio" name="2a4" value="2"></td>
 <td><input type="radio" name="2a4" value="3"></td>
@@ -180,7 +180,7 @@ function validateForm() {
 </td></td><tr>
 
 <td><br></td><tr>
-<td><b>b. Koulutuksen hyoty</b></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
+<td><b>b. Koulutuksen hyöty</b></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
 <td>Koulutus vastasi tarpeitani</td><td>
 <td><input type="radio" name="2b1" value="1"></td>
 <td><input type="radio" name="2b1" value="2"></td>
@@ -189,7 +189,7 @@ function validateForm() {
 <td><input type="radio" name="2b1" value="5"></td>
 <tr>
 
-<td>Koulutus oli sisalloltaan onnistunut</td><td>
+<td>Koulutus oli sisällöltään onnistunut</td><td>
 <td><input type="radio" name="2b2" value="1"></td>
 <td><input type="radio" name="2b2" value="2"></td>
 <td><input type="radio" name="2b2" value="3"></td>
@@ -197,7 +197,7 @@ function validateForm() {
 <td><input type="radio" name="2b2" value="5"></td>
 <tr>
 
-<td>Koin koulutuksen sisallon mielenkiintoiseksi</td><td>
+<td>Koin koulutuksen sisällön mielenkiintoiseksi</td><td>
 <td><input type="radio" name="2b3" value="1"></td>
 <td><input type="radio" name="2b3" value="2"></td>
 <td><input type="radio" name="2b3" value="3"></td>
@@ -205,7 +205,7 @@ function validateForm() {
 <td><input type="radio" name="2b3" value="5"></td>
 <tr>
 
-<td>Koulutus edistaa ammatillista kehittymistani</td><td>
+<td>Koulutus edistää ammatillista kehittymistäni</td><td>
 <td><input type="radio" name="2b4" value="1"></td>
 <td><input type="radio" name="2b4" value="2"></td>
 <td><input type="radio" name="2b4" value="3"></td>
@@ -213,7 +213,7 @@ function validateForm() {
 <td><input type="radio" name="2b4" value="5"></td>
 <tr>
 
-<td>Koulutuksen opit ovat sovellettavissa kaytantoon</td><td>
+<td>Koulutuksen opit ovat sovellettavissa käytäntään</td><td>
 <td><input type="radio" name="2b5" value="1"></td>
 <td><input type="radio" name="2b5" value="2"></td>
 <td><input type="radio" name="2b5" value="3"></td>
@@ -222,8 +222,8 @@ function validateForm() {
 <tr>
 
 <td><br></td><tr>
-<td><b>c. Koulutuksessa kaytetyt menetelmat</b></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
-<td>Koulutuksessa kaytettiin monipuolisia menetelmia</td><td>
+<td><b>c. Koulutuksessa käytetyt menetelmät</b></td><td><td align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><tr>
+<td>Koulutuksessa käytettiin monipuolisia menetelmiä</td><td>
 <td><input type="radio" name="2c1" value="1"></td>
 <td><input type="radio" name="2c1" value="2"></td>
 <td><input type="radio" name="2c1" value="3"></td>
@@ -231,7 +231,7 @@ function validateForm() {
 <td><input type="radio" name="2c1" value="5"></td>
 <tr>
 
-<td>Koulutuksessa kaytetytmenetelmat sopivat aihesisaltoon</td><td>
+<td>Koulutuksessa käytetyt menetelmat sopivat aihesisältöön</td><td>
 <td><input type="radio" name="2c2" value="1"></td>
 <td><input type="radio" name="2c2" value="2"></td>
 <td><input type="radio" name="2c2" value="3"></td>
@@ -255,7 +255,7 @@ function validateForm() {
 <td><input type="radio" name="2c4" value="5"></td>
 <tr>
 
-<td>Etaopetuspaivan tehtavat tukivat oppimista</td><td>
+<td>Etäopetuspäivän tehtavät tukivat oppimista</td><td>
 <td><input type="radio" name="2c5" value="1"></td>
 <td><input type="radio" name="2c5" value="2"></td>
 <td><input type="radio" name="2c5" value="3"></td>
@@ -273,7 +273,7 @@ function validateForm() {
 <td><input type="radio" name="2d1" value="5"></td>
 <tr>
 
-<td>Kouluttajan opetus oli selkeaa</td><td>
+<td>Kouluttajan opetus oli selkeää</td><td>
 <td><input type="radio" name="2d2" value="1"></td>
 <td><input type="radio" name="2d2" value="2"></td>
 <td><input type="radio" name="2d2" value="3"></td>
@@ -289,7 +289,7 @@ function validateForm() {
 <td><input type="radio" name="2d3" value="5"></td>
 <tr>
 
-<td>Yhteydenpito kouluttajaan onnistui etaopetuspaivana</td><td>
+<td>Yhteydenpito kouluttajaan onnistui etäopetuspäivänä</td><td>
 <td><input type="radio" name="2d4" value="1"></td>
 <td><input type="radio" name="2d4" value="2"></td>
 <td><input type="radio" name="2d4" value="3"></td>
@@ -297,7 +297,7 @@ function validateForm() {
 <td><input type="radio" name="2d4" value="5"></td>
 <tr>
 
-<td>Kouluttaja onnistui tehtavassaan</td><td>
+<td>Kouluttaja onnistui tehtävässään</td><td>
 <td><input type="radio" name="2d5" value="1"></td>
 <td><input type="radio" name="2d5" value="2"></td>
 <td><input type="radio" name="2d5" value="3"></td>
@@ -310,7 +310,7 @@ function validateForm() {
 <td><h3>3. Vapaa sana</h3></td><tr>
 
 
-<td>a. Mika oli mielestasi koulutuksen parasta antia?</td>
+<td>a. Mikä oli mielestäsi koulutuksen parasta antia?</td>
 <tr>
 <td><textarea style="max-width:100%"rows="3" cols="50" name="3a" ></textarea></td><tr>
 <td><br></td><tr>
@@ -320,7 +320,7 @@ function validateForm() {
 <td><textarea rows="3" cols="50" name="3b" ></textarea></td><tr>
 <td><br></td><tr>
 
-<td>c. Minkalaiseen koulutukseen haluaisit jatkossa osallistua?</td>
+<td>c. Minkälaiseen koulutukseen haluaisit jatkossa osallistua?</td>
 <tr>
 <td><textarea rows="3" cols="50" name="3c" ></textarea></td><tr>
 <td><br></td><tr>
