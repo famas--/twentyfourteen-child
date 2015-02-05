@@ -98,17 +98,17 @@ function validateForm() {
 <body>
 
 <table class="entry-content1">
-<tr><td><h1>Koulutuspalaute</h1></td><tr><td>Toivomme, etta pohdit hetken kaymääsi koulutusta ja täytät alla olevan palautelomakkeen. Antamasi palaute on meille arvokasta kehittaessamme koulutuksiamme edelleen.</td></table><br>
+<tr><td><h1 class="ajankohtaista">Koulutuspalaute</h1></td><tr><td><br><br>Toivomme, etta pohdit hetken kaymääsi koulutusta ja täytät alla olevan palautelomakkeen. Antamasi palaute on meille arvokasta kehittaessamme koulutuksiamme edelleen.</td></table><br>
 
 <table class="entry-content1">
 <form  name="form1" action="tavarakoulutuspalautetaulukkoon.php" onsubmit="return validateForm()" method="post"/>
-<td><h3>1. Taustatiedot *</h3></td>
+<td><h3>1. Taustatiedot *</h3></td></table>
 
 
 
-<tr>
 
-<td width="250px">Koulutuksen nimi:</td><td>
+<table class="entry-content1">
+<td>
 	<select name="koulutusid" onchange="data(this.value)" >
 		<?php koulutuksennimikysely() ?>
 	</select>
@@ -119,9 +119,9 @@ function validateForm() {
 
 
 </table>
-<div class="entry-content2" id="valitse">
+<table class="entry-content1" id="valitse">
 
-</div>
+</table>
 
 <br>
 
@@ -312,7 +312,7 @@ function validateForm() {
 
 <td>a. Mika oli mielestasi koulutuksen parasta antia?</td>
 <tr>
-<td><textarea rows="3" cols="50" name="3a" ></textarea></td><tr>
+<td><textarea style="max-width:100%"rows="3" cols="50" name="3a" ></textarea></td><tr>
 <td><br></td><tr>
 
 <td>b. Parannusehdotuksia?</td>

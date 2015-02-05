@@ -67,7 +67,7 @@ echo "<table class=\"entry-content1\"><tr>
 
 
 
-<form action=\"tavarailmoittautuneettaulukkoon.php\" method=\"post\"/>
+<form action=\"http://www.nihakseutu.com/wordpress/tavarailmoittautuneettaulukkoon.php\" method=\"post\"/>
 <input type=\"hidden\" name=\"var2\" value=". $id .">
 <tr>
 

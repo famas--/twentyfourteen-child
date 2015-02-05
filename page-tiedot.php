@@ -28,8 +28,8 @@ get_header(); ?>
 
 		<div id="content" class="site-content" role="main">
 <html>
-<head>
-<meta charset="UTF-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+
 </head>
 <body>
 <table class="entry-content1"><tr><td>
@@ -51,7 +51,7 @@ $sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE koulutusid = $id");
 		
 		
 		
-		<form id=\"form2\" action=\"http://localhost/wordpress/?page_id=18\" method=\"POST\">
+		<form id=\"form2\" action=\"http://www.nihakseutu.com/wordpress/?page_id=18\" method=\"POST\">
 		<input type=\"hidden\" name=\"var2\" value=" . $tieto['koulutusid']. ">
 		<input type=\"hidden\" name=\"var\" value=" . $tieto['koulutuksennimi']. ">
 		<input type=\"hidden\" name=\"aloitusaika\" value=" . $tieto['aloitusaika']. ">
