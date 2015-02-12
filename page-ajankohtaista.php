@@ -46,7 +46,11 @@ include 'yhteys.php';
 
 
 //Kysely: Koulutustaulukosta koulutukset, joiden ilmoittautumisaika on pienempi kuin CURTIME
+<<<<<<< HEAD
 $sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE ilmoittautuminen >= CURDATE()");
+=======
+$sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE ilmoittautuminen >= CURTIME()");
+>>>>>>> 2d4e160b9ffcd7f7d12e668d4ddb8e3fed63f92e
 
 //Tehdään while looppi noudetusta kysely ryhmästä
 while($tulos = mysqli_fetch_array($sql))

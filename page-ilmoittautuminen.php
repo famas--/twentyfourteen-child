@@ -58,25 +58,22 @@ $lopetusaika = $_POST['lopetusaika'];
 $lopetusaikaklo = $_POST['lopetusaikaklo'];
 
 
-//Koulutuksen nimi kysely
+//haetaan koulutuksen tiedot
 $nimi = mysqli_query ($yhteys,"SELECT * FROM koulutus WHERE koulutusid = $id");
 while($tieto = mysqli_fetch_array ($nimi)){
 
+
+
+//luodaan lomake ja echotaan haetut tiedot lomakkeeseen, aika muutetaan suomalaiseen muotoon
 echo "<table class=\"entry-content1\"><tr>
 <td>Koulutuksen nimi:</td><td style=\"strong\">" . $tieto['koulutuksennimi'] . "</td>
-
-
 
 <form action=\"http://www.nihakseutu.com/wordpress/tavarailmoittautuneettaulukkoon.php\" method=\"post\"/>
 <input type=\"hidden\" name=\"var2\" value=". $id .">
 <tr>
 
 
-
-
-<td>Ajankohta: </td> <td>".  date("d.m.Y", strtotime($aloitusaika)) . "&nbsp;&nbsp;-&nbsp;&nbsp;" . date("d.m.Y", strtotime($lopetusaika)) .
-
-"</td><tr>
+<td>Ajankohta: </td> <td>".  date("d.m.Y", strtotime($aloitusaika)) . "&nbsp;&nbsp;-&nbsp;&nbsp;" . date("d.m.Y", strtotime($lopetusaika)) . "</td><tr>
 
 <td>Yritys: </td><td><input type=\"text\" name=\"yritys\" size=\"40\"></td><tr>
 

@@ -213,7 +213,11 @@ function validateForm() {
 <td><input type="radio" name="2b4" value="5"></td>
 <tr>
 
+<<<<<<< HEAD
 <td>Koulutuksen opit ovat sovellettavissa käytäntöön</td><td>
+=======
+<td>Koulutuksen opit ovat sovellettavissa käytäntään</td><td>
+>>>>>>> 2d4e160b9ffcd7f7d12e668d4ddb8e3fed63f92e
 <td><input type="radio" name="2b5" value="1"></td>
 <td><input type="radio" name="2b5" value="2"></td>
 <td><input type="radio" name="2b5" value="3"></td>
@@ -255,7 +259,11 @@ function validateForm() {
 <td><input type="radio" name="2c4" value="5"></td>
 <tr>
 
+<<<<<<< HEAD
 <td>Etäopetuspäivän tehtävät tukivat oppimista</td><td>
+=======
+<td>Etäopetuspäivän tehtavät tukivat oppimista</td><td>
+>>>>>>> 2d4e160b9ffcd7f7d12e668d4ddb8e3fed63f92e
 <td><input type="radio" name="2c5" value="1"></td>
 <td><input type="radio" name="2c5" value="2"></td>
 <td><input type="radio" name="2c5" value="3"></td>
