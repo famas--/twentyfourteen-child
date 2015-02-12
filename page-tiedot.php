@@ -28,15 +28,15 @@ get_header(); ?>
 
 		<div id="content" class="site-content" role="main">
 <html>
-<head>
-<meta charset="UTF-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+
 </head>
 <body>
 <table class="entry-content1"><tr><td>
 <h1 class="ajankohtaista">KOULUTUKSEN TIEDOT</h1></td></table><br>
 <?php
 
-//sisällytetään yhteystidot
+//sis채llytet채채n yhteystidot
 include 'yhteys.php';
 
 
@@ -51,7 +51,7 @@ $sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE koulutusid = $id");
 		
 		
 		
-		<form id=\"form2\" action=\"http://localhost/wordpress/?page_id=18\" method=\"POST\">
+		<form id=\"form2\" action=\"http://www.nihakseutu.com/wordpress/?page_id=18\" method=\"POST\">
 		<input type=\"hidden\" name=\"var2\" value=" . $tieto['koulutusid']. ">
 		<input type=\"hidden\" name=\"var\" value=" . $tieto['koulutuksennimi']. ">
 		<input type=\"hidden\" name=\"aloitusaika\" value=" . $tieto['aloitusaika']. ">
@@ -81,14 +81,14 @@ $sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE koulutusid = $id");
 		
 		
 		
-		<td>Ilmoittautuminen paattyy</td><td class=\"tuomastd2\">" . date("d.m.Y", strtotime($tieto['ilmoittautuminen'])) . "&nbsp;&nbsp;&nbsp;klo:&nbsp;&nbsp;" . substr($tieto['ilmoittautuminenklo'], 0, 5) . "</td></tr>
+		<td>Ilmoittautuminen päättyy</td><td class=\"tuomastd2\">" . date("d.m.Y", strtotime($tieto['ilmoittautuminen'])) . "&nbsp;&nbsp;&nbsp;klo:&nbsp;&nbsp;" . substr($tieto['ilmoittautuminenklo'], 0, 5) . "</td></tr>
 		
 		
 		
-		<td>Ryhman koko</td><td class=\"tuomastd2\">" . $tieto['ryhmankoko'] . "</td></tr>
+		<td>Ryhmän koko</td><td class=\"tuomastd2\">" . $tieto['ryhmankoko'] . "</td></tr>
 		<td>Toteuttaja</td><td class=\"tuomastd2\">" . $tieto['toteuttaja'] . "</td></tr>
-		<td>Yhteyshenkilon sahkopostiosoite</td><td class=\"tuomastd2\">" . $tieto['email'] . "</td></tr>
-		<td>Yhteyshenkilon puhelinnumero</td><td class=\"tuomastd2\">" . $tieto['puh'] . "</td></tr>
+		<td>Yhteyshenkilön sähköpostiosoite</td><td class=\"tuomastd2\">" . $tieto['email'] . "</td></tr>
+		<td>Yhteyshenkilön puhelinnumero</td><td class=\"tuomastd2\">" . $tieto['puh'] . "</td></tr>
 		<td>Koulutuksen kesto</td><td class=\"tuomastd2\">" . $tieto['kesto'] . "</td></tr>
 		<td>Hinta</td><td class=\"tuomastd2\">" . $tieto['hinta'] . "</td></tr>
 		<td>Kuvaus</td><td class=\"tuomastd2\">" . $tieto['kuvaus'] . "</td></tr>

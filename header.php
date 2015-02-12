@@ -32,8 +32,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div class="slider123">
-<?php echo do_shortcode("[metaslider id=10]");?></div>
+
 
 <div id="page" class="hfeed site">
 	<?php if ( get_header_image() ) : ?>

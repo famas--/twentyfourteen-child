@@ -45,41 +45,47 @@ include 'yhteys.php';
 
 
 
+//Kysely: Koulutustaulukosta koulutukset, joiden ilmoittautumisaika on pienempi kuin CURTIME
+$sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE ilmoittautuminen >= CURDATE()");
 
-$sql = mysqli_query($yhteys,"SELECT * FROM koulutus WHERE ilmoittautuminen <= CURTIME()");
+//Tehdään while looppi noudetusta kysely ryhmästä
 while($tulos = mysqli_fetch_array($sql))
 {
 	
+	//Tehdään taulukko ja lomake jokaisesta koulutuksesta ja sisällytetään yhden koulutuksen tiedot aina yhteen taulukkoon
+	//Submit välittää formin tiedot eteenpäin
+	echo 	"<table class=\"entry-content1\">
 	
-	echo "<table class=\"entry-content1\">
+			<tr><td>" . $tulos['koulutuksennimi'] . "</td>
+			<td style=\"width:100px\" align=\"left\">" 
 	
-	<tr><td>" . $tulos['koulutuksennimi'] . "</td>
-	<td style=\"width:100px\" align=\"left\">" . date("d.m.Y", strtotime($tulos['aloitusaika'])) . "       </td>
+			/*tulostetaan koulutuksen aloitus aika muodossa d.m.y*/ 
+			. date("d.m.Y", strtotime($tulos['aloitusaika'])) .
+			"</td>
 	
-	<form id=\"form1\" action=\"http://localhost/wordpress/?page_id=23\" method=\"POST\">
-	<input type=\"hidden\" name=\"var2\" value=" . $tulos['koulutusid']. ">
-	<input type=\"hidden\" name=\"var\" value=" . $tulos['koulutuksennimi']. ">
-	<td style=\"width:100px\" align=\"right\"><input type=\"submit\" value=\"Tiedot\"></td>
-		
-	</form>
-	
-	
-	<form id=\"form2\" action=\"http://localhost/wordpress/?page_id=18\" method=\"POST\">
-	<input type=\"hidden\" name=\"var2\" value=" . $tulos['koulutusid']. ">
-	<input type=\"hidden\" name=\"var\" value=" . $tulos['koulutuksennimi']. ">
-	<input type=\"hidden\" name=\"aloitusaika\" value=" . $tulos['aloitusaika']. ">
-	<input type=\"hidden\" name=\"aloitusaikaklo\" value=" . $tulos['aloitusaikaklo']. ">
-	<input type=\"hidden\" name=\"lopetusaika\" value=" . $tulos['lopetusaika']. ">
-	<input type=\"hidden\" name=\"lopetusaikaklo\" value=" . $tulos['lopetusaikaklo']. ">
-	<td style=\"width:85px\" align=\"right\"><input type=\"submit\" value=\"Ilmoittaudu\"></td>
-	
-	</form>
-	
-	</table>";
+			<!--formi vie piilotietoja eteenpäin-->
+			<form id=\"form1\" action=\"http://www.nihakseutu.com/wordpress/?page_id=23\" method=\"POST\">
+				<input type=\"hidden\" name=\"var2\" value=". $tulos['koulutusid']. ">
+				<input type=\"hidden\" name=\"var\" value=" . $tulos['koulutuksennimi']. ">
+				<td style=\"width:100px\" align=\"right\"><input type=\"submit\" value=\"Tiedot\"></td>
+			</form>
+			
+			<!--formi vie piilotietoja eteenpäin-->
+			<form id=\"form2\" action=\"http://www.nihakseutu.com/wordpress/?page_id=18\" method=\"POST\">
+				<input type=\"hidden\" name=\"var2\" value=" . $tulos['koulutusid']. ">
+				<input type=\"hidden\" name=\"var\" value=" . $tulos['koulutuksennimi']. ">
+				<input type=\"hidden\" name=\"aloitusaika\" value=" . $tulos['aloitusaika']. ">
+				<input type=\"hidden\" name=\"aloitusaikaklo\" value=" . $tulos['aloitusaikaklo']. ">
+				<input type=\"hidden\" name=\"lopetusaika\" value=" . $tulos['lopetusaika']. ">
+				<input type=\"hidden\" name=\"lopetusaikaklo\" value=" . $tulos['lopetusaikaklo']. ">
+				<td style=\"width:85px\" align=\"right\"><input type=\"submit\" value=\"Ilmoittaudu\"></td>
+			</form>
+			
+			</table>";
 	
 }
 
-// suljetaan yhteys
+// suljetaan yhteys $yhteys
 mysqli_close($yhteys);
 
 
@@ -110,6 +116,9 @@ mysqli_close($yhteys);
 	</div><!-- #primary -->
 	
 </div><!-- #main-content -->
+
+
+
 </body>
 </html>
 <?php
